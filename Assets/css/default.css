@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root
+{
+    --primary: #4755C5;
+    --secondary: #404092;
+
+    --black: #15152c;
+    --white: #e4e4e4;
+
+    --title: "Anton", sans-serif;
+    --paragraph: "Inter", sans-serif;
+    --bold: 500;
+    
+    --gap: 8px;
+    --padding-inline: 10%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+:target
+{
+    scroll-margin-top: 100px;
+}
+
+.subline
+{
+    position: relative;
+}
+
+.subline::after
+{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: var(--secondary);
+    transform-origin: left;
+
+    transition: 300ms ease;
+    transition-property: width;
+}
+
+.subline:hover::after
+{
+    width: 100%;
+}

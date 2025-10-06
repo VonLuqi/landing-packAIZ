@@ -3,198 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinemais | Araxá | Cinema além da tela</title>
+    <title>Pack de Animações AIZ</title>
     <link rel="stylesheet" href="./Assets/css/_reset.css">
     <link rel="stylesheet" href="./Assets/css/default.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="shortcut icon" href="./Assets/images/logo.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="Assets/images/favicons/icon_dark.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
+    <link rel="shortcut icon" href="Assets/images/favicons/icon_light.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+
+    <script src="./Assets/scripts/scripts.js" defer></script>
 </head>
 <body>
-    <section class="menu_sect" id="menu">
-        <ul>
-            <li>Cinemas</li>
-            <li>Filmes</li>
-            <li>Promoções</li>
-            <li>Projetos</li>
-            <li>Salas</li>
-            <li>Sessões Especiais</li>
-            <li>Institucional</li>
-            <li class="clube">Clube Cine+</li>
-        </ul>
-    </section>
+    <a href="#"><div class="subir"></div></a>
     <header>
-        <a href="#menu"><img src="./Assets/images/icons/menu.svg" alt="" class="menu"></a>
-        <a href="#"><img src="./Assets/images/icons/x.svg" alt="" class="menu menu_x"></a>
-        <div class="nav_logo">
-            <img src="./Assets/images/logo-azul-cinemais.png" alt="" class="logo">
-            <form action="" class="container_form_nav">
-                <div class="wrapper_drop">
-                    <div class="wrapper_icon">
-                        <img src="./Assets/images/icons/map_point.svg" alt="">
-                    </div>
-                    <select name="" id="">
-                        <option value="1">Cinemais Anápolis</option>
-                        <option value="2" selected>Cinemais Araxá</option>
-                        <option value="3">Cinemais Catalão</option>
-                        <option value="4">Cinemais Goiânia - Bougainville</option>
-                        <option value="5">Cinemais Goiânia - Portal</option>
-                        <option value="6">Cinemais Goiânia - Portal Sul</option>
-                        <option value="7">Cinemais Guaratinguetá</option>
-                        <option value="8">Cinemais Ituiutaba</option>
-                        <option value="9">Cinemais Juiz de Fora</option>
-                        <option value="10">Cinemais Montes Claros</option>
-                        <option value="11">Cinemais Patos de Minas</option>
-                        <option value="12">Cinemais Uberaba</option>
-                    </select>
-                </div>
-                <div class="wrapper_drop">
-                    <div class="wrapper_icon">
-                        <img src="./Assets/images/icons/film.svg" alt="">
-                    </div>
-                    <select name="" id="">
-                        <option value="1" selected hidden>Todos os Filmes</option>
-                        <option value="2">Demon Slayer: Kimetsu no Yaiba - Castelo Infinito</option>
-                        <option value="3">Invocação do Mal 4: O Último Ritual</option>
-                        <option value="4">Uma Batalha Após a Outra</option>
-                    </select>
-                </div>
-                <button class="button_form_nav"><span>Ver horários</span><img src="./Assets/images/icons/arrow.svg" alt=""></button>
-            </form>
+        <div class="menu">
+            <a href="#menu"><img class="ham" src="./Assets/images/icons/menu.svg" alt=""></a>
+            <a href="#"><img class="x" src="./Assets/images/icons/x.svg" alt=""></a>
         </div>
-        <nav>
+        <nav id="menu">
             <ul>
-                <a href=""><li>Cinemas</li></a>
-                <a href=""><li>Filmes</li></a>
-                <a href=""><li>Promoções</li></a>
-                <a href=""><li>Projetos</li></a>
-                <a href=""><li>Salas</li></a>
-                <a href=""><li>Sessões Especiais</li></a>
-                <a href=""><li>Institucional</li></a>
-                <a href=""><li class="clube">Clube Cine+</li></a>
+                <li>
+                    <a href="#oQue">O que vem?</a>
+                </li>
+                <li>
+                    <a href="#porque">Porquê?</a>
+                </li>
+                <li>
+                    <a href="#nos">Nós</a>
+                </li>
+                <li>
+                    <a href="#paraQuem">Para quem</a>
+                </li>
+                <li>
+                    <a href="#jaUsa">Quem já usa</a>
+                </li>
             </ul>
-            <a href=""><img src="./Assets/images/icons/instagram.svg" alt=""></a>
-            <div class="a">A-</div>
-            <div class="a">A+</div>
-            <div class="a">&#x25d0;</div>
         </nav>
     </header>
     <main>
         <section class="hero">
-
+            <div class="balao">
+                <p class="b1">Os cara tão no teto!</p>
+                <p class="b2">Pegaram minha Makita...</p>
+            </div>
+            <div class="container_title_hero">
+                <h1>Dê Vida aos Seus Projetos com o Pack de Animações AIZ</h1>
+                <h2>De GIFs para seus vídeos até os arquivos completos para animadores profissionais.</h2>
+            </div>
+            <form action="" class="container_form_hero">
+                <h3>garanta seu pack agora</h3>
+                <p class="subtitle">Preencha os dados e receba acesso imediato ao material.</p>
+                <input type="text" placeholder="NOME" required minlength="3">
+                <input type="email" placeholder="E-MAIL" required>
+                <input type="submit" value="QUERO MEU PACK!">
+                <p class="subs">Compra segura e acesso instantâneo.</p>
+            </form>
         </section>
-        <section class="cartaz">
-            <div class="sections">
-                <a href="#em-cartaz" class="eC">
-                    <h3>em cartaz</h3>
-                </a>
-                <a href="#em-breve" class="eB">
-                    <h3>em breve</h3>
-                </a>
-            </div>
-            <div class="em-cartaz" id="em-cartaz">
-                <div class="wrapper_card estreia uma-batalha"></div>
-                <div class="wrapper_card kimetsu"></div>
-                <div class="wrapper_card invocacao esconde_no_cel"></div>
-            </div>
-            <div class="em-breve" id="em-breve">
-                <div class="wrapper_card data coracao-de-lutador" data-lancamento="02/10/2025"></div>
-                <div class="wrapper_card data gaby" data-lancamento="09/10/2025"></div>
-                <div class="wrapper_card data perrengue esconde_no_cel" data-lancamento="09/10/2025"></div>
-                <div class="wrapper_card data tron esconde_no_cel" data-lancamento="09/10/2025"></div>
-                <div class="wrapper_card data telefone-preto-2 esconde_no_cel" data-lancamento="16/10/2025"></div>
-                <div class="wrapper_card data mk-2 esconde_no_cel" data-lancamento="23/10/2025"></div>
+        <section class="features" id="oQue">
+            <h2 class="subline">O Que Você Encontra no Pack?</h2>
+            <p class="desc">Um pacote completo e versátil para todas as suas necessidades. Desde animações prontas para dar um toque dinâmico aos seus vídeos, até os arquivos-fonte completos para animadores que desejam estudar, adaptar e ter controle total sobre cada etapa do processo.</p>
+            <div class="container_cards">
+                <div class="wrapper_card lazy-bg" data-bg="url(../images/features/gifs.gif) no-repeat center / cover">
+                    <h3>GIFs e Stickers Prontos</h3>
+                    <p>Animações de alta qualidade prontas para você arrastar e soltar em seus vídeos, stories e posts.</p>
+                </div>
+                <div class="wrapper_card lazy-bg" data-bg="url(../images/features/projetos.gif) no-repeat center / cover">
+                    <h3>Projetos Completos e Editáveis</h3>
+                    <p>Tenha acesso aos arquivos abertos para customizar, estudar e adaptar as animações para seus projetos.</p>
+                </div>
+                <div class="wrapper_card lazy-bg" data-bg="url(../images/features/genga.gif) no-repeat center / cover">
+                    <h3>Todas as Etapas da Animação</h3>
+                    <p>Aprenda e utilize os arquivos de cada fase: do Rough e Genga até a Line, Cor e Composição final.</p>
+                </div>
             </div>
         </section>
-        <section class="aproveite">
-            <h3>Aproveite</h3>
-            <div class="container_images">
-                <img src="./Assets/images/segunda-espetacular.jpeg" alt="">
-                <img src="./Assets/images/traga-sua-turma.jpg" alt="">
-                <img src="./Assets/images/presenteie-com-experiencia.jpg" alt="" class="esconde_no_cel">
-                <img src="./Assets/images/anuncie-no-cinema.png" alt="" class="esconde_no_cel">
+        <section class="porque" id="porque">
+            <h2>Por Que Escolher o Pack AIZ?</h2>
+            <p>Nosso pack foi desenvolvido para economizar seu tempo, impulsionar sua criatividade e elevar a qualidade visual do seu conteúdo, não importa seu nível de habilidade.</p>
+            <div class="container_baloes">
+                <div class="wrapper_balao">
+                    <img src="./Assets/images/icons/clock.svg" alt="">
+                    <p class="title">Economize Tempo</p>
+                    <p class="subtitle">Chega de procurar por assets ou começar do zero. Use nossas animações prontas para agilizar suas entregas.</p>
+                </div>
+                <div class="wrapper_balao">
+                    <img src="./Assets/images/icons/edit.svg" alt="">
+                    <p class="title">Máximo Controle Criativo</p>
+                    <p class="subtitle">Com os arquivos-fonte, você tem liberdade total para alterar cores, timing e personagens como quiser.</p>
+                </div>
+                <div class="wrapper_balao">
+                    <img src="./Assets/images/icons/star-rainbow.svg" alt="">
+                    <p class="title">Qualidade Profissional</p>
+                    <p class="subtitle">Eleve o nível dos seus vídeos e projetos com animações fluidas e impactantes, criadas por especialistas.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sobre nos" id="nos">
+            <h2>Criado por Animadores, Para Criadores</h2>
+            <p class="subtitle">Nascemos da paixão pela animação e do desejo de compartilhar ferramentas que realmente façam a diferença nos seus projetos.</p>
+            <div class="container_sobre">
+                <img src="./Assets/images/trampo.jpeg" alt="">
+                <div class="wrapper_sobre">
+                    <p>Sabemos como pode ser demorado e desafiador criar animações de qualidade do zero ou encontrar assets que realmente se encaixem em um projeto. Muitas vezes, a barreira técnica ou o tempo acabam limitando o potencial criativo de ótimas ideias.</p>
+                    <p>Por isso, criamos o Pack de Animações AIZ. Nossa missão é oferecer um atalho para a qualidade profissional, entregando materiais flexíveis que servem tanto para quem precisa de uma solução rápida para seus vídeos, quanto para animadores que querem mergulhar nos arquivos e ter controle total. Acreditamos em democratizar a animação de impacto.</p>
+                    <a href="">ELEVE SEUS PROJETOS AGORA!</a>
+                </div>
+            </div>
+        </section>
+        <section class="sobre para-quem" id="paraQuem">
+            <h2>Para Quem é Este Pack?</h2>
+            <p class="subtitle">Seja você um criador de conteúdo buscando agilidade ou um animador em busca de aprofundamento, o Pack AIZ foi pensado para você.</p>
+            <div class="container_sobre">
+                <div class="wrapper_sobre">
+                    <p>Para Youtubers, Social Medias e Criadores de Conteúdo que precisam de um toque profissional e dinâmico em seus vídeos. Com os GIFs e animações prontas, você adiciona um elemento visual de alta qualidade em segundos, sem precisar de conhecimento técnico em animação.</p>
+                    <p>Para Animadores, Motion Designers e Estudantes de Animação que desejam acelerar seu fluxo de trabalho e estudar o processo. Use os arquivos abertos como base para seus projetos, analise cada etapa da produção e tenha total liberdade para criar e adaptar o material.</p>
+                    <a href="">COMECE A CRIAR HOJE MESMO!</a>
+                </div>
+                <img src="./Assets/images/praQuem.gif" alt="">
+            </div>
+        </section>
+        <section class="porque quem-usa" id="jaUsa">
+            <h2>A Opinião de Quem Já Usa</h2>
+            <p>Veja como o Pack AIZ está ajudando criadores de conteúdo e animadores a elevarem o nível de seus projetos.</p>
+            <div class="container_baloes">
+                <div class="wrapper_balao">
+                    <img src="./Assets/images/feedbacks/juliana.jpeg" alt="">
+                    <p class="subtitle">"O Pack AIZ mudou meu jogo! Eu não sei animar, mas agora consigo adicionar vinhetas e GIFs super profissionais nos meus vídeos em minutos. A qualidade é incrível e economiza um tempo absurdo."</p>
+                    <p class="title">Juliana S., Youtuber</p>
+                </div>
+                <div class="wrapper_balao">
+                    <img src="./Assets/images/feedbacks/ricardo.jpeg" alt="">
+                    <p class="subtitle">"Fiquei impressionado com a organização dos arquivos. Ter acesso a todas as etapas, do rough à composição, é fantástico não só para acelerar o trabalho mas também como material de estudo. Um recurso de altíssimo valor."</p>
+                    <p class="title">Ricardo M., Motion Designer</p>
+                </div>
+                <div class="wrapper_balao">
+                    <img src="./Assets/images/feedbacks/fernanda.jpeg" alt="">
+                    <p class="subtitle">"Como estudante, poder 'desmontar' uma animação profissional e ver cada camada do processo é uma aula por si só. Ajudou muito a entender o fluxo de trabalho e a melhorar minhas próprias animações. Recomendo demais!"</p>
+                    <p class="title">Fernanda L., Estudante de Design</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <section class="products esconde_no_cel">
-            <div class="container_product">
-                <h3>Cinemas</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a>Cinemais Anápolis</a>
-                    <a>Cinemais Araxá</a>
-                    <a>Cinemais Catalão</a>
-                    <a>Cinemais Goiânia - Bougainville</a>
-                    <a>Cinemais Goiânia - Portal</a>
-                    <a>Cinemais Goiânia - Portal Sul</a>
-                    <a>Cinemais Guaratinguetá</a>
-                    <a>Cinemais Ituiutaba</a>
-                    <a>Cinemais Juiz de Fora</a>
-                    <a>Cinemais Montes Claros</a>
-                    <a>Cinemais Patos de Minas</a>
-                    <a>Cinemais Uberaba</a>
-                </div>
-            </div>
-            <div class="container_product">
-                <h3>Filmes</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a href="#em-cartaz">Em cartaz</a>
-                    <a href="#em-breve">Em breve</a>
-                </div>
-                <h3>Promoções</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a href="">Segunda Espetacular</a>
-                </div>
-            </div>
-            <div class="container_product">
-                <h3>Projetos</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a href="">Cinemais Escola</a>
-                    <a href="">Cinemais Empresa</a>
-                    <a href="">Anuncie no Cinema</a>
-                    <a href="">Aluguel de Sala</a>
-                    <a href="">Aniversário no Cinemais</a>
-                    <a href="">Projetos</a>
-                </div>
-                <h3>Salas</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a href="">Sala VIP</a>
-                    <a href="">Sala Dolby Atmos</a>
-                </div>
-            </div>
-            <div class="container_product">
-                <h3>Institucional</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a href="">Quem Somos</a>
-                    <a href="">Central de Atendimento</a>
-                    <a href="">Classificação Indicativa</a>
-                    <a href="">Meia entrada</a>
-                    <a href="">Bombonière</a>
-                    <a href="">Trabalhe Conosco</a>
-                    <a href="">Acessibilidade</a>
-                </div>
-                <h3>Sessões Especiais</h3>
-                <hr>
-                <div class="wrapper_list">
-                    <a href="">Cinematerna</a>
-                    <a href="">Cine+Azul</a>
-                </div>
-            </div>
-        </section>
-        <hr class="esconde_no_cel">
-        <section class="copy">
-            <img src="./Assets/images/logo-negative.svg" alt="" class="logo">
-            <p>© Copyright cinemais, 2025 – Todos os direitos reservados.</p>
-            <div class="dev">
-                <p>Desenvolvido e gerenciado por</p>
-                <img src="./Assets/images/gaia_logo.png" alt="">
-            </div>
-        </section>
-    </footer>
 </body>
 </html>
